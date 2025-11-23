@@ -1,4 +1,4 @@
-# Prompt for a single task
+# Prompt user for task details
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
@@ -20,5 +20,5 @@ if time_bound.lower() == "yes":
 else:
     message += ". Consider completing it when you have free time."
 
-# Print the reminder
-print("Reminder:", message)
+# Print the customized reminder
+print("\nReminder:", message)
